@@ -8,8 +8,6 @@ build/
 
 src/main/resources/application.properties
 application-dev.yml
-application.yml
-application-prod.yml
 src/main/resources/templates/login.html
 src/main/resources/firebase/firebase_service_key.json
 src/main/resources/templates/mail.html
