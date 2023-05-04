@@ -8,6 +8,7 @@ public class BasicController {
 
     @GetMapping("/")
     public String home() {
-        return "redirect:walkipet.site/swagger-ui/index.html";
+
+        return "redirect:https://walkipet.site/swagger-ui/index.html#/";
     }
 }
