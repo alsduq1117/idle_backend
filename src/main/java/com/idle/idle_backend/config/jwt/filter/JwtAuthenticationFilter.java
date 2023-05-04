@@ -31,7 +31,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
 
 //        String baseUrl = "http://localhost:8080/api";
-        String baseUrl = "http://aws-v5-beanstalk-env.eba-am9gyut8.ap-northeast-2.elasticbeanstalk.com";
+        String baseUrl = "https://walkipet.site";
 
         String requestURL = request.getRequestURL().toString();
         if(requestURL.equals(baseUrl + "/oauth/login")

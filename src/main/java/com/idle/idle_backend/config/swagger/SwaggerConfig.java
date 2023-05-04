@@ -12,7 +12,7 @@ import org.springdoc.core.GroupedOpenApi;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@OpenAPIDefinition(servers = { @Server(url = "http://aws-v5-beanstalk-env.eba-am9gyut8.ap-northeast-2.elasticbeanstalk.com"),
+@OpenAPIDefinition(servers = { @Server(url = "https://walkipet.site"),
         @Server(url = "http://localhost:8080/")})
 @Configuration
 public class SwaggerConfig {
